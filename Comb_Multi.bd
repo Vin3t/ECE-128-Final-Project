@@ -1,0 +1,62 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x8B0180F08B0180F",
+      "device": "xc7a35tcpg236-2L",
+      "gen_directory": "../../../../Final Project.gen/sources_1/bd/Comb_Multi",
+      "name": "Comb_Multi",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "Multi_for_Matrix_0": ""
+    },
+    "ports": {
+      "A_0": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "B_0": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "P_0": {
+        "direction": "O",
+        "left": "7",
+        "right": "0"
+      }
+    },
+    "components": {
+      "Multi_for_Matrix_0": {
+        "vlnv": "xilinx.com:user:Multi_for_Matrix:1.0",
+        "xci_name": "Comb_Multi_Multi_for_Matrix_0_0",
+        "xci_path": "ip\\Comb_Multi_Multi_for_Matrix_0_0_1\\Comb_Multi_Multi_for_Matrix_0_0.xci",
+        "inst_hier_path": "Multi_for_Matrix_0"
+      }
+    },
+    "nets": {
+      "A_0_1": {
+        "ports": [
+          "A_0",
+          "Multi_for_Matrix_0/A"
+        ]
+      },
+      "B_0_1": {
+        "ports": [
+          "B_0",
+          "Multi_for_Matrix_0/B"
+        ]
+      },
+      "Multi_for_Matrix_0_P": {
+        "ports": [
+          "Multi_for_Matrix_0/P",
+          "P_0"
+        ]
+      }
+    }
+  }
+}
